@@ -33,6 +33,10 @@
 
     // this function is called by Cordova when the application is loaded by the device
     document.addEventListener('deviceready', function () {
+
+
+       
+
         window.contacts = [];
         navigator.splashscreen.hide();
 
@@ -46,7 +50,8 @@
         // the application needs to know which view to load first
         initial: 'views/home.html'
         });
-        
+        var map = new GoogleMap();
+        map.initialize();
       
 
     }, false);
