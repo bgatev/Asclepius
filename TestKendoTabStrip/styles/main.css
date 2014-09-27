@@ -3,7 +3,11 @@ body, html {
     height: 100%;
     width: 100%;
 }
-
+ul{
+    list-style-type:none;
+    font-size:19px;
+    margin:5px;
+}
 /* COMMON STYLES*/
 .view-content h1 {
     color: #42454a;

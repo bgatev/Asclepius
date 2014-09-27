@@ -6,12 +6,13 @@ var app = app || {};
     scope.addPerson = kendo.observable({
         name: '',
         isParty: false,
-        musicType: '',
+        musicType: $("#addMusicType").val(),
         save: function (ev) {
            
-            console.log(this.musicType);
+            
             var partyValue = this.get('isParty') == true ? "PartyGuy" : "kkk";
-            console.log(partyValue);
+            //console.log(this.musicType);
+            //console.log(partyValue);
 
             var person = navigator.contacts.create({
                 displayName: this.get('name'),
@@ -22,11 +23,12 @@ var app = app || {};
                 ]
             });
             person.save();
-
             console.log('saved');
-            kendo.bind($("select"), addPerson);
+            
+            
         }
-
+        
     });
+    
     
 }(app))

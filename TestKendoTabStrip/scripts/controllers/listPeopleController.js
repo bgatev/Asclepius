@@ -1,16 +1,121 @@
 var app = app || {};
 
 function onSuccess(contacts) {
+    var filtered = contacts;
 
-    alert(contacts.length);
-    $('#contacts-output').html("<strong>" + contacts.length + "</strong> contacts returned.");
-    for (var i = 0; i < contacts.length ; i++) {
-        
-            $('#contacts-output').append("<br/>Contact " + (i + 1) + " is <strong>" +
-                    contacts[i].displayName + "</strong>");
-            
-        
-    }
+    $("#rock-btn").click(function () {
+        //clear the array
+        filtered = [];
+
+        for (var i = 0; i < contacts.length; i++) {
+            //console.log(typeof (contacts[i].categories[0].type));
+
+            if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
+                && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
+
+                if (contacts[i].categories[0].type == "Rock" && contacts[i].categories[1].type == "PartyGuy") {
+
+                    filtered.push(contacts[i]);
+                }
+            }
+            else {
+                continue;
+            }
+        }
+        var template = kendo.template($("#contacts-list-template").html());
+
+        var result = template(filtered);
+
+        $("#contacts-output").html(result);
+
+    })
+
+    $("#chalga-btn").click(function () {
+        //clear the array
+        filtered = [];
+
+        for (var i = 0; i < contacts.length; i++) {
+            //console.log(typeof (contacts[i].categories[0].type));
+
+            if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
+                && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
+
+                if (contacts[i].categories[0].type == "Chalga" && contacts[i].categories[1].type == "PartyGuy") {
+
+                    filtered.push(contacts[i]);
+                }
+            }
+            else {
+                continue;
+            }
+        }
+        var template = kendo.template($("#contacts-list-template").html());
+
+        var result = template(filtered);
+
+        $("#contacts-output").html(result);
+
+    })
+
+    $("#retro-btn").click(function () {
+        //clear the array
+        filtered = [];
+
+        for (var i = 0; i < contacts.length; i++) {
+            //console.log(typeof (contacts[i].categories[0].type));
+
+            if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
+                && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
+
+                if (contacts[i].categories[0].type == "Retro" && contacts[i].categories[1].type == "PartyGuy") {
+
+                    filtered.push(contacts[i]);
+                }
+            }
+            else {
+                continue;
+            }
+        }
+        var template = kendo.template($("#contacts-list-template").html());
+
+        var result = template(filtered);
+
+        $("#contacts-output").html(result);
+
+    })
+
+    $("#dance-btn").click(function () {
+        //clear the array
+        filtered = [];
+
+        for (var i = 0; i < contacts.length; i++) {
+            //console.log(typeof (contacts[i].categories[0].type));
+
+            if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
+                && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
+
+                if (contacts[i].categories[0].type == "Dance" && contacts[i].categories[1].type == "PartyGuy") {
+
+                    filtered.push(contacts[i]);
+                }
+            }
+            else {
+                continue;
+            }
+        }
+        var template = kendo.template($("#contacts-list-template").html());
+
+        var result = template(filtered);
+
+        $("#contacts-output").html(result);
+
+    })
+
+    var template = kendo.template($("#contacts-list-template").html());
+
+    var result = template(filtered);
+
+    $("#contacts-output").html(result);
 };
 
 function onError(contactError) {
