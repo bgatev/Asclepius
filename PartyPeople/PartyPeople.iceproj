@@ -66,6 +66,9 @@
     <Content Include="kendo\styles\images\wp8_inverseicons.png" />
     <Content Include="kendo\typescript\jquery.d.ts" />
     <Content Include="kendo\typescript\kendo.mobile.d.ts" />
+    <Content Include="music\DanceKrisko.mp4">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="scripts\app.js" />
     <Content Include="scripts\controllers\addPersonController.js" />
     <Content Include="scripts\controllers\homeController.js" />
@@ -108,6 +111,7 @@
     <Folder Include="kendo\styles\" />
     <Folder Include="kendo\styles\images\" />
     <Folder Include="kendo\typescript\" />
+    <Folder Include="music\" />
     <Folder Include="Plugins\" />
     <Folder Include="scripts\" />
     <Folder Include="scripts\controllers\" />
