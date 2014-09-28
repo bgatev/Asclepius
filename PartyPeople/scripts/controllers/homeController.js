@@ -77,9 +77,13 @@ var app = app || {};
                 }, function () {
 
                     window.navigator.vibrate(200);
-
+                    $("#userMusicType").hide();
+                    $("#userData").hide();
                     alert('You are in the Party People Network!');
-                    window.location.replace("views/nearestPartyPeople.html");
+
+                   
+                    this.app.navigate("#partyList");
+                    
                 },
                     function (error) {
                         console.log(error);

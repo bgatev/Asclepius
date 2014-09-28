@@ -7,12 +7,17 @@
         <option value="Dance">Dance</option>
     </select>
 
-    <label for="username">Your Name:</label>
-    <input type="text" id="userName" name="username" data-bind="value: name" />
-    <label for="phone">Phone:</label>
-    <input type="text" id="userPhone" name="phone" data-bind="value: phone" />
+    <div id="userData">
+        <label for="username">Your Name:</label>
+        <input type="text" id="userName" name="username" data-bind="value: name" /><br />
+        <label for="phone">Phone:</label>
+        <input type="text" id="userPhone" name="phone" data-bind="value: phone" />
 
-    <button data-bind="events: {click:login}">Login</button>
+        <button data-bind="events: {click:login}">Login</button>
+    </div>
+    
+
+    
 </div>
 
 <div data-role="=view" data-layout="main" data-model="app.map">
