@@ -49,7 +49,7 @@
 var app = app || {};
 
 (function (scope) {
-
+    
     scope.login = kendo.observable({
         name: '',
         musicType: $("#userMusicType").val(),
@@ -57,16 +57,34 @@ var app = app || {};
         phone: '',
         login: function (ev) {
 
+            var self = this;
             navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
-
+            
             function onGetPositionSuccess(position) {
                 
-                this.geoPosition = new Object ({
+                self.geoPosition = {
                     longitude: position.coords.longitude,
                     latitude:position.coords.latitude
-                });
+                };
 
+                var data = window.everlife.data('PartyUsers');
                 
+                data.create({
+                    Name: self.name,
+                    MusicType: self.musicType,
+                    Phone: self.phone,
+                    Geolocation: self.geoPosition
+                }, function () {
+
+                    window.navigator.vibrate(200);
+
+                    alert('You are in the Party People Network!');
+                    window.location.replace("views/nearestPartyPeople.html");
+                },
+                    function (error) {
+                        console.log(error);
+                    }
+                );
                 
             }
 
@@ -74,25 +92,8 @@ var app = app || {};
                 console.log(error);
             }
 
-            var data = window.everlife.data('PartyUsers');
-            console.log(JSON.stringify(this.geoPosition));
 
-            //data.create({
-            //    Name: this.name,
-            //    MusicType: this.musicType,
-            //    Phone: this.phone,
-            //    Geolocation: this.geoPosition
-            //}, function () {
-
-            //    window.navigator.vibrate(200);
-                
-            //    alert('You are in the Party People Network!');
-            //    window.location.replace("views/nearestPartyPeople.html");
-            //},
-            //    function (error) {
-            //        console.log(error);
-            //    }
-            //);
+            
         }
 
 
