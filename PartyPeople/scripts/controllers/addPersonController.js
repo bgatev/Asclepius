@@ -2,18 +2,18 @@
 
 var app = app || {};
 
-function onSuccess(acceleration) {
-    if (acceleration.x > 2 && acceleration.y > 2 && acceleration.z > 2) {
-        if (my_media) my_media.stop(); 
-    }
-}
+//function onSuccess(acceleration) {
+//    if (acceleration.x > 2 && acceleration.y > 2 && acceleration.z > 2) {
+//        if (my_media) my_media.stop(); 
+//    }
+//}
 
-function onError() {
-    alert('Can not stop the music. Please shake your phone');
-}
+//function onError() {
+//    alert('Can not stop the music. Please shake your phone');
+//}
 
 (function (scope) {
-    navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+    //navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
 
     scope.addPerson = kendo.observable({
         name: '',

@@ -26,20 +26,21 @@
       }
     };
 
-    function onFindConctactsSuccess(contacts) {
-        //filter contacts
-        console.dir(contacts);
-    }
+    //function onFindConctactsSuccess(contacts) {
+    //    //filter contacts
+    //    console.dir(contacts);
+    //}
 
-    function onOffline() {
-        alert('Please connect your device to the network!');
-    }
+    //function onOffline() {
+    //    alert('Please connect your device to the network!');
+    //}
 
-    document.addEventListener("offline", onOffline, false);
+    //document.addEventListener("offline", onOffline, false);
 
 
     // this function is called by Cordova when the application is loaded by the device
-    document.addEventListener('deviceready', function () {  
+    document.addEventListener('deviceready', function () {
+
       window.everlife = new Everlive('V5y7hbZOZitjpe9X');
       window.contacts = [];
       // hide the splash screen as soon as the app is ready. otherwise

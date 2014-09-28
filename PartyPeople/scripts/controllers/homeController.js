@@ -64,7 +64,7 @@ var app = app || {};
                 
                 self.geoPosition = {
                     longitude: position.coords.longitude,
-                    latitude:position.coords.latitude
+                    latitude: position.coords.latitude
                 };
 
                 var data = window.everlife.data('PartyUsers');
@@ -80,9 +80,6 @@ var app = app || {};
                     $("#userMusicType").hide();
                     $("#userData").hide();
                     alert('You are in the Party People Network!');
-
-                   
-                    this.app.navigate("#partyList");
                     
                 },
                     function (error) {

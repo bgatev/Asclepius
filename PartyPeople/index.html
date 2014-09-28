@@ -45,6 +45,7 @@
     <script src="scripts/controllers/listPeopleController.js"></script>
     <script src="scripts/controllers/addPersonController.js"></script>
     <script src="scripts/controllers/homeController.js"></script>
+    <script src="scripts/controllers/listNearestPartyPeopleController.js"></script>
 
     <script type="text/x-kendo-template" id="contacts-list-template">
         <ul>
@@ -61,8 +62,8 @@
 
     <script type="text/x-kendo-template" id="partypeople-list-template">
         <ul>
-            # for (var i = 0; i < data.length; i++) { #
-            <li>#= data[i].Name # <span>#= data[i].Phone #</span></li>
+            # for (var i = 0; i < data.count; i++) { #
+            <li>#= data.result[i].Name # <span> #= data.result[i].Phone #</span></li>
             # } #
         </ul>
    </script>
