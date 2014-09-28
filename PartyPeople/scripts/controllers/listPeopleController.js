@@ -1,6 +1,6 @@
 var app = app || {};
 var my_media = null;
-var mediaTimer = null;
+mediaTimer = null;
 
 function setAudioPosition(position) {
     document.getElementById('audio_position').innerHTML = position;
