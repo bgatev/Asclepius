@@ -1,0 +1,29 @@
+<div data-role="view" data-title="Party People" data-layout="main" data-model="app.addPerson">
+    <label for="name">Name</label>
+    <input type="text" name="name" data-bind="value: name"/>
+    
+    <div>
+        <label>Party member</label>
+        <input type="checkbox" data-bind="checked: isParty"/>
+        <select data-bind="source: musicType" data-role="dropdownlist">
+            <option value="Rock">Rock</option>
+            <option value="Chalga">Chalga</option>
+            <option value="Retro">Retro</option>
+            <option value="Dance">Dance</option>
+        </select>
+
+        <!--<form id="musicTypeForm" >
+            <input type="radio" name="rockCat" value="Rock" data-bind="checked: musicType">Rock<br>
+            <input type="radio" name="chalgaCat" value="Chalga" data-bind="checked: musicType">Chalga<br>
+            <input type="radio" name="retroCat" value="Retro" data-bind="checked: musicType">Retro<br />
+            <input type="radio" name="technoCat" value="Dance" data-bind="checked: musicType">Dance
+        </form>-->
+        <button data-bind="events: {click:save}">Save</button>
+    </div>
+</div>
+
+
+
+
+
+
