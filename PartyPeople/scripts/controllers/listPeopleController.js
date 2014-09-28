@@ -1,15 +1,14 @@
 var app = app || {};
 var my_media = null;
-var mediaTimer = null;
+mediaTimer = null;
 
 function setAudioPosition(position) {
     document.getElementById('audio_position').innerHTML = position;
 }
 
 function playAudio(src) {
-
     if (my_media) my_media.stop();
-
+    navigator.vibrate
     // Create Media object from src
     my_media = new Media(src, onSuccess, onError);
 
