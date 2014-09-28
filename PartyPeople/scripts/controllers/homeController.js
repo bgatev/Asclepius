@@ -61,11 +61,13 @@ var app = app || {};
 
             function onGetPositionSuccess(position) {
                 
-                this.geoPosition = new Object({
+                this.geoPosition = new Object ({
                     longitude: position.coords.longitude,
-                    latitude: position.coords.latitude
+                    latitude:position.coords.latitude
                 });
-                console.log(this.geoPosition);
+
+                
+                
             }
 
             function onGetPositionError(error) {
@@ -73,6 +75,7 @@ var app = app || {};
             }
 
             var data = window.everlife.data('PartyUsers');
+            console.log(JSON.stringify(this.geoPosition));
 
             //data.create({
             //    Name: this.name,
