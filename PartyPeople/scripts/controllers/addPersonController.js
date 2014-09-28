@@ -2,9 +2,9 @@
 
 var app = app || {};
 
-function onSuccess(acceleration) {
+function onSuccessShakePhone(acceleration) {
     if (acceleration.x > 2 && acceleration.y > 2 && acceleration.z > 2) {
-        if (my_media) my_media.stop(); 
+		my_media.stop(); 
     }
 }
 
@@ -13,7 +13,7 @@ function onError() {
 }
 
 (function (scope) {
-    navigator.accelerometer.getCurrentAcceleration(onSuccess, onError);
+    if (my_media) navigator.accelerometer.getCurrentAcceleration(onSuccessShakePhone, onError);
 
     scope.addPerson = kendo.observable({
         name: '',
