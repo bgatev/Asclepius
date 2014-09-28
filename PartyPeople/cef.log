@@ -94,3 +94,4 @@
 [0928/230329:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0928/230936:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0928/231025:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/231128:ERROR:ipc_channel_win.cc(405)] pipe error: 232
