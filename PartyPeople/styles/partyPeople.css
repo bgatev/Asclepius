@@ -14,9 +14,13 @@
 #partyMember{
     margin:10px;
 }
-#partyMember button{
 
+#partyMember button{
+    margin:30px 30px 30px 100px;
+    width:5em;
 }
 #addMusicType{
-
+    width: 7em;
+    height:2em;
+    margin:10px;
 }

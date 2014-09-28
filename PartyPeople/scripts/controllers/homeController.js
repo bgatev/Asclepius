@@ -8,7 +8,6 @@ function GoogleMap() {
 
     var addMarkersToMap = function (map) {
 
-
         var mapBounds = new google.maps.LatLngBounds();
 
         var latitudeAndLongitudeOne = new google.maps.LatLng('-2.890542', '15.274856');

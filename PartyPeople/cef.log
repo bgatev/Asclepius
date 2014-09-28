@@ -17,3 +17,5 @@
 [0928/150803:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0928/154112:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
 [0928/154112:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/214036:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/214106:ERROR:renderer_main.cc(226)] Running without renderer sandbox

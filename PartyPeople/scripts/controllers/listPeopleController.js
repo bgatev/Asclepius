@@ -123,7 +123,7 @@ function onSuccess(contacts) {
 };
 
 function onError(contactError) {
-    alert('onError!');
+    alert('There is an error with your contacts. Please reopen the app!');
 };
 
 (function (scope) {
