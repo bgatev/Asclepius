@@ -8,7 +8,7 @@ function setAudioPosition(position) {
 
 function playAudio(src) {
     if (my_media) my_media.stop();
-    navigator.vibrate
+
     // Create Media object from src
     my_media = new Media(src, onSuccess, onError);
 
