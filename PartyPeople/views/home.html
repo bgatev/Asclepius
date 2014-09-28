@@ -1,6 +1,20 @@
-<div data-role="view" data-title="Home" data-layout="main" data-model="APP.models.home">
-    <h1 data-bind="html: title"></h1>
+<div data-role="view" data-title="Home" data-layout="main" data-model="app.login">
+
+    <select id="userMusicType" data-bind="value:musicType">
+        <option value="Rock">Rock</option>
+        <option value="Chalga">Chalga</option>
+        <option value="Retro">Retro</option>
+        <option value="Dance">Dance</option>
+    </select>
+
+    <label for="username">Your Name:</label>
+    <input type="text" id="userName" name="username" data-bind="value: name" />
+    <label for="phone">Phone:</label>
+    <input type="text" id="userPhone" name="phone" data-bind="value: phone" />
+
+    <button data-bind="events: {click:login}">Login</button>
 </div>
+
 <div data-role="=view" data-layout="main" data-model="app.map">
     <div id="map-canvas">
     </div>

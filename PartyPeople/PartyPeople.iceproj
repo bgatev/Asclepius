@@ -69,7 +69,9 @@
     <Content Include="scripts\app.js" />
     <Content Include="scripts\controllers\addPersonController.js" />
     <Content Include="scripts\controllers\homeController.js" />
+    <Content Include="scripts\controllers\listNearestPartyPeopleController.js" />
     <Content Include="scripts\controllers\listPeopleController.js" />
+    <Content Include="scripts\everlive.all.min.js" />
     <Content Include="styles\main.css" />
     <Content Include="styles\images\appbuilder.png" />
     <Content Include="styles\images\appbuilder2x.png" />
@@ -89,8 +91,8 @@
     <Content Include="views\addPerson.html" />
     <Content Include="views\contacts.html" />
     <Content Include="views\home.html" />
+    <Content Include="views\nearestPartyPeople.html" />
     <Content Include="views\partyContacts.html" />
-    <Content Include="views\settings.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Resources\" />
