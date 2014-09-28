@@ -1,0 +1,22 @@
+/*PartyContacts CSS*/
+#contacts-output ul li{
+   list-style-type:none;
+   margin: 5px;
+}
+#rock-btn{
+    margin-left:20px;
+}
+
+/*Add Person CSS*/
+#nameLabel{
+    margin:10px;
+}
+#partyMember{
+    margin:10px;
+}
+#partyMember button{
+
+}
+#addMusicType{
+
+}

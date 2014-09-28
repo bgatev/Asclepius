@@ -85,6 +85,7 @@
     <Content Include="styles\images\search_active2x.png" />
     <Content Include="styles\images\sprite-weather.png" />
     <Content Include="styles\images\sprite-weather2x.png" />
+    <Content Include="styles\partyPeople.css" />
     <Content Include="views\addPerson.html" />
     <Content Include="views\contacts.html" />
     <Content Include="views\home.html" />

@@ -22,6 +22,7 @@ function onSuccess(contacts) {
                 continue;
             }
         }
+
         var template = kendo.template($("#contacts-list-template").html());
 
         var result = template(filtered);
@@ -49,6 +50,7 @@ function onSuccess(contacts) {
                 continue;
             }
         }
+
         var template = kendo.template($("#contacts-list-template").html());
 
         var result = template(filtered);
@@ -76,6 +78,7 @@ function onSuccess(contacts) {
                 continue;
             }
         }
+
         var template = kendo.template($("#contacts-list-template").html());
 
         var result = template(filtered);
@@ -103,6 +106,7 @@ function onSuccess(contacts) {
                 continue;
             }
         }
+
         var template = kendo.template($("#contacts-list-template").html());
 
         var result = template(filtered);
@@ -121,12 +125,14 @@ function onSuccess(contacts) {
 function onError(contactError) {
     alert('onError!');
 };
+
 (function (scope) {
 
     scope.contacts = function (e) {
 
         var options = new ContactFindOptions();
         options.multiple = true;
+
         var fields = [
             navigator.contacts.fieldType.displayName,
             navigator.contacts.fieldType.categories
