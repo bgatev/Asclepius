@@ -89,7 +89,7 @@ var app = app || {};
                         window.navigator.vibrate(200);
                         $("#userMusicType").hide();
                         $("#userData").hide();
-                        alert('You are in the Party People Network!');
+                        //alert('You are in the Party People Network!');
 
                     },
                         function (error) {
