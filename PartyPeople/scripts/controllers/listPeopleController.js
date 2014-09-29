@@ -42,7 +42,7 @@ function onSuccess(contacts) {
     $("#rock-btn").click(function () {
         //clear the array
         filtered = [];
-
+        console.log(contacts);
         playAudio("music/RockPrettyFly.mp3");
 
         for (var i = 0; i < contacts.length; i++) {

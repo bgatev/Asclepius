@@ -57,47 +57,53 @@ var app = app || {};
         phone: '',
         login: function (ev) {
 
-            var self = this;
-            navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
-            
-            function onGetPositionSuccess(position) {
-                
-                self.geoPosition = {
-                    longitude: position.coords.longitude,
-                    latitude: position.coords.latitude
-                };
-
-                var data = window.everlife.data('PartyUsers');
-                
-                data.create({
-                    Name: self.name,
-                    MusicType: self.musicType,
-                    Phone: self.phone,
-                    Geolocation: self.geoPosition
-                }, function () {
-
-                    window.navigator.vibrate(200);
-                    $("#userMusicType").hide();
-                    $("#userData").hide();
-                    alert('You are in the Party People Network!');
-                    
-                },
-                    function (error) {
-                        console.log(error);
-                    }
-                );
-                
+            if (this.name == '' || this.name == null || this.name == undefined) {
+                alert("You must enter your username!");
             }
-
-            function onGetPositionError(error) {
-                console.log(error);
+            else if (this.musicType == undefined) {
+                alert("You must enter your music genre preference!");
             }
+            else if (this.phone == '' || this.phone == null || this.phone == undefined) {
+                alert("You must enter your phone number!");
+            }
+            else {
+                var self = this;
+                navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
 
+                function onGetPositionSuccess(position) {
 
-            
+                    self.geoPosition = {
+                        longitude: position.coords.longitude,
+                        latitude: position.coords.latitude
+                    };
+
+                    var data = window.everlife.data('PartyUsers');
+
+                    data.create({
+                        Name: self.name,
+                        MusicType: self.musicType,
+                        Phone: self.phone,
+                        Geolocation: self.geoPosition
+                    }, function () {
+
+                        window.navigator.vibrate(200);
+                        $("#userMusicType").hide();
+                        $("#userData").hide();
+                        alert('You are in the Party People Network!');
+
+                    },
+                        function (error) {
+                            console.log(error);
+                        }
+                    );
+
+                }
+
+                function onGetPositionError(error) {
+                    console.log(error);
+                }
+            }
         }
-
-
     });
 }(app))
 
