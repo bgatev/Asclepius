@@ -31,11 +31,11 @@
     //    console.dir(contacts);
     //}
 
-    //function onOffline() {
-    //    alert('Please connect your device to the network!');
-    //}
+    function onOffline() {
+        alert('Please connect your device to the network!');
+    }
 
-    //document.addEventListener("offline", onOffline, false);
+    document.addEventListener("offline", onOffline, false);
 
 
     // this function is called by Cordova when the application is loaded by the device

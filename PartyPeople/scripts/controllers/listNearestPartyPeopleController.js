@@ -11,9 +11,7 @@ function generateOutput(data) {
 
 (function (scope) {
     
-    scope.partyPeopleList = function (e) {
-
-        
+    scope.partyPeopleList = function (e) {       
 
         var currentUserMusicType = $("#userMusicType").val();
 
