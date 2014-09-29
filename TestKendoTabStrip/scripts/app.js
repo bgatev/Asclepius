@@ -55,7 +55,7 @@
       
         var el = new Everlive('V5y7hbZOZitjpe9X');
 
-        navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
+        //navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
 
     }, false);
 

@@ -52,10 +52,25 @@ var app = app || {};
     scope.login = kendo.observable({
         name: '',
         musicType: $("#userMusicType").val(),
-        geoPosition : '',
+        geoPosition: '',
+        phone : '',
         login: function (ev) {
             
-            console.log(this.musicType);
+            navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
+
+            function onGetPositionSuccess(position) {
+                this.geoPosition = position;
+            }
+
+            function onGetPositionError(error) {
+                console.log(error);
+            }
+
+            var el = new Everlive('V5y7hbZOZitjpe9X');
+
+
         }
+
+        
     });
 }(app))
