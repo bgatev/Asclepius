@@ -224,3 +224,117 @@
 [0928/015057:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0928/125717:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
 [0928/125718:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/154023:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/154023:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/154316:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/154317:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/154410:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/160012:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/160017:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/160113:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/160114:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/160330:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/160330:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/160336:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162221:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/162221:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162239:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162337:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162337:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162359:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162359:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162445:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/162445:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163853:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163853:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163856:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163916:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163916:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163943:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/163943:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/164520:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/164520:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/164711:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/164711:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/164811:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/164811:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165235:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/165236:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165238:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165322:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165322:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165444:ERROR:ipc_channel_win.cc(405)] pipe error: 232
+[0928/165444:ERROR:ipc_channel_win.cc(405)] pipe error: 232
+[0928/165444:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165444:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165541:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/165542:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165545:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165749:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/165750:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/165813:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/170125:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/170130:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/170256:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/170257:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174243:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/174243:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174554:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174555:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174819:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174819:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174908:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174908:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174940:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174941:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174950:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/174950:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175007:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175007:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175009:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175107:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175108:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175112:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175211:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175211:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175442:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175443:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175542:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175543:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175551:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175702:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175703:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175708:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175725:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175725:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175730:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175837:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175837:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175841:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175936:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/175937:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/175944:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180007:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/180007:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180012:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180048:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/180048:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180052:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180151:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/180152:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180155:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180315:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/180315:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180319:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180511:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/180512:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180519:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180902:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/180902:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/181217:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/181217:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/181218:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/181229:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0928/181317:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0928/181318:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0928/181321:ERROR:renderer_main.cc(226)] Running without renderer sandbox
