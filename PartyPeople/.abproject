@@ -5,7 +5,7 @@
   "AppIdentifier": "com.telerik.PartyPeople",
   "DisplayName": "PartyPeople",
   "Author": "",
-  "Description": "",
+  "Description": "PartyPeople",
   "BundleVersion": "1.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
