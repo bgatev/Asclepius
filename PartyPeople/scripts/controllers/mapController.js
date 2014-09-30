@@ -10,22 +10,23 @@ function generateOutput(data) {
 }
 
 (function (scope) {
-    
-    scope.partyPeopleList = function (e) {
-
+    scope.map = function (e) {
         
-
         var currentUserMusicType = $("#userMusicType").val();
-
         if (currentUserMusicType == null || currentUserMusicType == undefined) {
 
-            alert("You must log in to view Party Animals Info!");
+            alert("You must log in to view other party animals!");
         }
         else {
             navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
 
             function onGetPositionSuccess(position) {
-                console.log(position.coords);
+                var map = new GMaps({
+                    div: '#map',
+                    lat: position.coords.longitude,
+                    lng: position.coords.latitude,
+                });
+
                 var query = new Everlive.Query();
                 query
                     .where()
@@ -35,24 +36,26 @@ function generateOutput(data) {
                 var data = window.everlife.data('PartyUsers');
                 data.get(query)
                 .then(function (data) {
+                    //add markers
+                    
+                    for (var i = 0; i < data.result.length; i++) {
 
-                    generateOutput(data);
+                        map.addMarker({
+                            lat: data.result[i].Geolocation.longitude,
+                            lng: data.result[i].Geolocation.latitude,
+                            title: data.result[i].Name,
+                        });
+                    }
+                    
                 },
                 function (error) {
                     console.log(error);
                 });
-
             }
-
             function onGetPositionError(error) {
                 console.log(error);
             }
         }
-
-        //TODO: implement logic for non registered user
-
-        
-        
+       
     }
-
 }(app))

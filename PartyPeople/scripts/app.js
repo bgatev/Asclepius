@@ -41,6 +41,7 @@
     // this function is called by Cordova when the application is loaded by the device
     document.addEventListener('deviceready', function () {
 
+
       window.everlife = new Everlive('V5y7hbZOZitjpe9X');
       window.contacts = [];
       // hide the splash screen as soon as the app is ready. otherwise

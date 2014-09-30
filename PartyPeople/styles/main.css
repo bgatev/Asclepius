@@ -4,6 +4,13 @@ body, html {
     width: 100%;
 }
 
+#map {
+     height:350px; 
+     width:300px;
+     background:#6699cc;
+
+}
+
 /* COMMON STYLES*/
 .view-content h1 {
     color: #42454a;

@@ -40,7 +40,10 @@ var app = app || {};
                     ]
                 });
                 document.getElementById('addusername').innerHTML = "";
-                $("#addusername").html(" ");
+                //$("#addusername").html(" ");
+                this.set('name', '');
+                this.set('musicType', 'false');
+                this.set('isParty', 'checked:false');
 
                 person.save();
                 console.log('saved');
