@@ -530,3 +530,26 @@
 [0929/204717:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0929/204727:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0929/204828:ERROR:ipc_channel_win.cc(405)] pipe error: 232
+[0929/205346:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/205346:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/205350:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210014:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210017:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210024:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210027:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210034:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/210035:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210126:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210132:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210135:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210143:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210205:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210214:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/210215:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210339:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210352:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210407:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210414:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210502:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/210511:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/210512:ERROR:renderer_main.cc(226)] Running without renderer sandbox

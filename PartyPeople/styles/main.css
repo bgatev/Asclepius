@@ -11,6 +11,12 @@ body, html {
 
 }*/
 
+#userMusicType{
+    
+  width:100px;
+  font-size:15px;
+}
+
 /* COMMON STYLES*/
 .view-content h1 {
     color: #42454a;
