@@ -1,10 +1,11 @@
 <div data-role="view" data-title="Add Person" data-layout="main" data-model="app.addPerson">
-    <label for="name" id="nameLabel">Name</label>
-    <input type="text" name="name" id="addusername" data-bind="value: name" />
+    <label for="name" id="nameLabel">Name</label><br />
+    <input type="text" name="name" id="addusername" data-bind="value: name" /><br />
+    <label>Party member</label><br />
+    <input type="checkbox" id="isPartCheckBox" data-bind="checked: isParty" /><br />
 
-    <div id="partyMember">
-        <label>Party member</label>
-        <input type="checkbox" data-bind="checked: isParty" />
+   
+        
 
         <select id="addMusicType" data-bind="value:musicType">
             <option value="Rock">Rock</option>
@@ -13,6 +14,6 @@
             <option value="Dance">Dance</option>
         </select>
 
-        <button data-bind="events: {click:save}" data-role="button">Save</button>
-    </div>
+        <button id="addContactBtn" data-bind="events: {click:save}" data-role="button">Save</button>
+    
 </div>
