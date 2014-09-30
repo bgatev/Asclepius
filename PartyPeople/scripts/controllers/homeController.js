@@ -58,13 +58,13 @@ var app = app || {};
         login: function (ev) {
 
             if (this.name == '' || this.name == null || this.name == undefined) {
-                alert("You must enter your username!");
+                navigator.notification.alert("You must enter your username!");
             }
             else if (this.musicType == undefined) {
-                alert("You must enter your music genre preference!");
+                navigator.notification.alert("You must enter your music genre preference!");
             }
             else if (this.phone == '' || this.phone == null || this.phone == undefined) {
-                alert("You must enter your phone number!");
+                navigator.notification.alert("You must enter your phone number!");
             }
             else {
                 var self = this;
@@ -89,7 +89,7 @@ var app = app || {};
                         window.navigator.vibrate(200);
                         $("#userMusicType").hide();
                         $("#userData").hide();
-                        alert('You are in the Party People Network!');
+                        navigator.notification.alert('You are in the Party People Network!');
 
                     },
                         function (error) {

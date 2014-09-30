@@ -19,7 +19,7 @@ function generateOutput(data) {
 
         if (currentUserMusicType == null || currentUserMusicType == undefined) {
 
-            alert("You must log in to view Party Animals Info!");
+            navigator.notification.alert("You must log in to view Party Animals Info!");
         }
         else {
             navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
@@ -48,11 +48,6 @@ function generateOutput(data) {
                 console.log(error);
             }
         }
-
-        //TODO: implement logic for non registered user
-
-        
-        
     }
 
 }(app))

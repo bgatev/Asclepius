@@ -22,10 +22,10 @@ var app = app || {};
         save: function (ev) {
             
             if (this.musicType == undefined) {
-                alert("You must choose the contacts' music genre preference!")
+                navigator.notification.alert("You must choose the contacts' music genre preference!")
             }
             else if (this.name == '' || this.name == null || this.name == undefined) {
-                alert("You must enter the contact\s name");
+                navigator.notification.alert("You must enter the contact\s name");
             }
             else {
                 var partyValue = this.get('isParty') == true ? "PartyGuy" : false;

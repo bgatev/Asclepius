@@ -15,7 +15,7 @@ function generateOutput(data) {
         var currentUserMusicType = $("#userMusicType").val();
         if (currentUserMusicType == null || currentUserMusicType == undefined) {
 
-            alert("You must log in to view other party animals!");
+            navigator.notification.alert("You must log in to view other party animals!");
         }
         else {
             navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
@@ -39,7 +39,7 @@ function generateOutput(data) {
                     //add markers
                     
                     for (var i = 0; i < data.result.length; i++) {
-
+                        console.log(data.result[i]);
                         map.addMarker({
                             lat: data.result[i].Geolocation.longitude,
                             lng: data.result[i].Geolocation.latitude,
