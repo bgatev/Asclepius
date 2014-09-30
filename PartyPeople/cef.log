@@ -571,3 +571,12 @@
 [0929/212949:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
 [0929/212949:ERROR:renderer_main.cc(226)] Running without renderer sandbox
 [0929/213127:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/215740:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/215740:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/215815:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/215913:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/215925:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/215936:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/215936:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0929/220038:ERROR:gpu_info_collector_win.cc(102)] Can't retrieve a valid WinSAT assessment.
+[0929/220038:ERROR:renderer_main.cc(226)] Running without renderer sandbox
