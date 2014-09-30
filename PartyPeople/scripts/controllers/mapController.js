@@ -13,18 +13,21 @@ function generateOutput(data) {
     scope.map = function (e) {
         
         var currentUserMusicType = $("#userMusicType").val();
-        if (currentUserMusicType == null || currentUserMusicType == undefined) {
+       // if (currentUserMusicType == null || currentUserMusicType == undefined) {
 
-            navigator.notification.alert("You must log in to view other party animals!");
-        }
-        else {
+            //navigator.notification.alert("You must log in to view other party animals!");
+       // }
+        //else {
             navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
 
             function onGetPositionSuccess(position) {
+                
                 var map = new GMaps({
                     div: '#map',
                     lat: position.coords.longitude,
                     lng: position.coords.latitude,
+                    width: '500px',
+                    height: '500px',
                 });
 
                 var query = new Everlive.Query();
@@ -55,7 +58,7 @@ function generateOutput(data) {
             function onGetPositionError(error) {
                 console.log(error);
             }
-        }
+        //}
        
     }
 }(app))

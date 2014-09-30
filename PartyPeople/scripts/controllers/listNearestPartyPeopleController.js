@@ -25,7 +25,7 @@ function generateOutput(data) {
             navigator.geolocation.getCurrentPosition(onGetPositionSuccess, onGetPositionError);
 
             function onGetPositionSuccess(position) {
-                console.log(position.coords);
+               // console.log(position.coords);
                 var query = new Everlive.Query();
                 query
                     .where()
