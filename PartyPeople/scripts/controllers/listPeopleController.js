@@ -46,7 +46,7 @@ function onSuccess(contacts) {
         playAudio("music/RockPrettyFly.mp3");
 
         for (var i = 0; i < contacts.length; i++) {
-            //console.log(typeof (contacts[i].categories[0].type));
+            
 
             if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
                 && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
@@ -75,7 +75,7 @@ function onSuccess(contacts) {
 
         playAudio("music/ChalgaPlashtal.mp3");
         for (var i = 0; i < contacts.length; i++) {
-            //console.log(typeof (contacts[i].categories[0].type));
+            
 
             if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
                 && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
@@ -104,7 +104,7 @@ function onSuccess(contacts) {
 
         playAudio("music/RetroBrenitsa.mp3");
         for (var i = 0; i < contacts.length; i++) {
-            //console.log(typeof (contacts[i].categories[0].type));
+            
 
             if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
                 && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
@@ -133,7 +133,7 @@ function onSuccess(contacts) {
 
         playAudio("music/DanceKrisko.mp4");
         for (var i = 0; i < contacts.length; i++) {
-            //console.log(typeof (contacts[i].categories[0].type));
+           
 
             if (typeof (contacts[i].categories[0].type) == 'string' || (contacts[i].categories[0].type) instanceof String
                 && typeof (contacts[i].categories[1].type) == 'string' || (contacts[i].categories[1].type) instanceof String) {
@@ -176,7 +176,8 @@ function onError(contactError) {
 
         var fields = [
             navigator.contacts.fieldType.displayName,
-            navigator.contacts.fieldType.categories
+            navigator.contacts.fieldType.categories,
+            navigator.contacts.fieldType.phoneNumbers
         ];
 
         var vm = kendo.observable({

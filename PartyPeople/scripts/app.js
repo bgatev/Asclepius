@@ -61,9 +61,6 @@
         initial: 'views/home.html'
       });
 
-      //var map = new GoogleMap();
-      //map.initialize();
-
     }, false);
 
 

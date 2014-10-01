@@ -62,21 +62,15 @@
                 #= data[i].displayName # likes <strong>#= data[i].categories[0].type #</strong>
                 #if (data[i].categories[1].type) { #
                 <strong> -> #= data[i].categories[1].type #</strong>
+                
+                    #if (data[i].phoneNumbers[0].value) { #
+                    <strong> #= data[i].phoneNumbers[0].value #</strong>
+                    # } #
                 # } #
             </li>
             # } #
         </ul>
     </script>
-
-    <!--<script type="text/x-kendo-template" id="contacts-list-template">
-        <ul>
-            # for (var i = 0; i < data.length; i++) { #
-            <li>
-                #= data[i].displayName #
-            </li>
-            # } #
-        </ul>
-    </script>-->
 
     <script type="text/x-kendo-template" id="partypeople-list-template">
         <ul>

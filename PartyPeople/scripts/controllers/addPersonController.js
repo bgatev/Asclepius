@@ -23,10 +23,13 @@ function onErrorHandShake() {
         save: function (ev) {
             
             if (this.musicType == undefined) {
-                navigator.notification.alert("You must choose the contacts' music genre preference!")
+                navigator.notification.alert("You must choose the contact music genre preference!")
             }
             else if (this.name == '' || this.name == null || this.name == undefined) {
-                navigator.notification.alert("You must enter the contact\s name");
+                navigator.notification.alert("You must enter the contact name");
+            }
+            else if (this.phone == '' || this.phone == null || this.phone == undefined) {
+                navigator.notification.alert("You must enter the contact phone number");
             }
             else {
                 var partyValue = this.get('isParty') == true ? "PartyGuy" : false;
@@ -34,7 +37,7 @@ function onErrorHandShake() {
                 //console.log(partyValue);
                 var phones = [];
                // phones[0] = new ContactField('work', this.get('phone'), false);
-                phones[0] = new ContactField('work', '111-222-3333', false);
+                phones[0] = new ContactField('work', this.get('phone'), false);
 
                 var person = navigator.contacts.create({
                     displayName: this.get('name'),
@@ -44,13 +47,15 @@ function onErrorHandShake() {
                     ],
                     phoneNumbers: phones
                 });
+                //person.phoneNumbers.push(this.get('phone'));
                 document.getElementById('addusername').innerHTML = "";
-                //$("#addusername").html(" ");
+               
                 this.set('name', '');
                 this.set('musicType', 'false');
                 this.set('isParty', 'checked:false');
                 this.set('phone', '');
                 person.save();
+                
                 console.log('saved');
             }
         }
